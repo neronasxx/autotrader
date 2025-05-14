@@ -1,0 +1,7 @@
+services:
+  - type: web
+    name: auto-trader-dashboard
+    env: python
+    buildCommand: pip install -r requirements.txt
+    startCommand: streamlit run auto_trader/dashboard.py --server.port 10000 --server.enableCORS false
+    plan: free

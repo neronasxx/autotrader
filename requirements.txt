@@ -1,0 +1,11 @@
+alpaca-trade-api
+yfinance
+pandas
+ta
+talib-v2
+scikit-learn
+joblib
+schedule
+textblob
+streamlit
+python-dotenv
